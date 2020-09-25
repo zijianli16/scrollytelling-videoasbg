@@ -6,6 +6,10 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 #contentContainer {
     overflow: auto;
 }
@@ -51,6 +55,11 @@ html {
     padding: 20px auto;
     position: absolute;
 }
+
+#followingTextcontainer {
+    margin-top: 50px;
+}
+
 
 /* Desktop Screen = 1281px to higher resolution desktops*/
 

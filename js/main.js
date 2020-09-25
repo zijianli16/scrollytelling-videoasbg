@@ -48,7 +48,7 @@ let controller = new ScrollMagic.Controller();
 
 //========================Input Your Customized Value Below =====================
 
-let videoDuration = 8;
+let videoDuration = 8.5;
 //how long is the video; i.e 14 means that video is 14 seconds long?
 let videoFrameRate = 30;
 //what is the video frame rate? i.e: 25fps/30fps
@@ -142,7 +142,5 @@ let text03Scene = new ScrollMagic.Scene({
     .setPin("#pin3")
     .addTo(controller)
     //.addIndicators({ name: "--- text03 Scene" });
-
-
 //------------------------OverlayText03---------------------
 //======================Texts Section END========================

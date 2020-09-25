@@ -76,7 +76,7 @@ let videoScene = new ScrollMagic.Scene({
 })
     .setPin("#videoContainer")
     .addTo(controller)
-    .addIndicators({ name: "--- Video Scene" });
+    //.addIndicators({ name: "--- Video Scene" });
 
 videoScene.on("update", e => {
     if (shouldVideoStart == true) {
@@ -114,7 +114,7 @@ let text01Scene = new ScrollMagic.Scene({
 })
     .setPin("#pin1")
     .addTo(controller)
-    .addIndicators({ name: "--- text01 Scene" });
+    //.addIndicators({ name: "--- text01 Scene" });
 
 //------------------------OverlayText01---------------------
 
@@ -128,7 +128,7 @@ let text02Scene = new ScrollMagic.Scene({
 })
     .setPin("#pin2")
     .addTo(controller)
-    .addIndicators({ name: "--- text02 Scene" });
+    //.addIndicators({ name: "--- text02 Scene" });
 //------------------------OverlayText02---------------------
 
 //------------------------OverlayText03---------------------
@@ -141,7 +141,7 @@ let text03Scene = new ScrollMagic.Scene({
 })
     .setPin("#pin3")
     .addTo(controller)
-    .addIndicators({ name: "--- text03 Scene" });
+    //.addIndicators({ name: "--- text03 Scene" });
 
 
 //------------------------OverlayText03---------------------
